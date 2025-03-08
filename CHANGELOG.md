@@ -1,9 +1,16 @@
 <!-- markdownlint-disable-file MD004 MD024 MD034 MD036 -->
 # CHANGE LOG
 
-## main(v0.9.0)
+## main(v0.9.1)
+
+- feat: |UI| support google ads
+- feat: |UI| 使用 shadow DOM 防止样式污染
+
+## v0.9.0
 
 - feat: | Worker | 支持多语言
+- feat: | Worker | `NO_LIMIT_SEND_ROLE` 配置支持多角色, 逗号分割
+- feat: | Actions | build 里增加 `worker-with-wasm-mail-parser.zip` 支持 UI 部署带 `wasm` 的 worker
 
 ## v0.8.7
 
